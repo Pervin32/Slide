@@ -38,6 +38,7 @@ const items = [
     }
 ]
 
+
 let index = 0;
 const createUI = () => {
     const item = items[index]
@@ -67,7 +68,7 @@ function actionPrev() {
     else{
         index--
     }
-    
+
     createUI()
 }
 
